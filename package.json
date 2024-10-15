@@ -1,0 +1,30 @@
+{
+  "name": "cat-vector",
+  "version": "1.0.0",
+  "description": "Design a vector(cat vector) with tailwind css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MhmmdEmmi/cat-vector.git"
+  },
+  "keywords": [
+    "tailwind",
+    "css",
+    "design",
+    "vector",
+    "web"
+  ],
+  "author": "Mohammad Emami",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MhmmdEmmi/cat-vector/issues"
+  },
+  "homepage": "https://github.com/MhmmdEmmi/cat-vector#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  }
+}
